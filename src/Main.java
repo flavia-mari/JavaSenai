@@ -20,6 +20,23 @@ student.name = "pedro";
 student.grade1 = 4.5;
 student.grade2 = 7.5;
 
+Student student1 = new Student();
+student1.name = "silva";
+student1.grade1=9.5;
+student1.grade2 =7.5;
+
+System.out.println();
+System.out.println();
+
+
+
+Bond bond = new Bond();
+bond.name= "Tesouro direto";
+bond.balance= 20000.00;
+
+        bond.buyBond(24);
+        bond.simulateInterest();
+
 
     }
 
