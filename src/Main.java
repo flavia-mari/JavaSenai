@@ -52,7 +52,7 @@ System.out.println();
        aluno02.anoMatricula = 2024;
 
 
-       System.out.println(aluno01.nome + "tem" aluno01.altura+"m de altura.");
+       System.out.println(aluno01.nome + "tem" +aluno01.altura+"m de altura.");
 
        aluno02.estuda();
 
